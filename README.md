@@ -26,7 +26,10 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+## Links
 
+📌       [Repository Link](https://github.com/ishika-rg/fylo-landing-page)
+📌       [Live Link](https://ishika-rg.github.io/fylo-landing-page/)
 
 
 ## Output Images 
