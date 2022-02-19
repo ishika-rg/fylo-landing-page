@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.links li{
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+.links a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: hsl(244, 42%, 15%);
+    white-space: nowrap;
+
+
+} 
+
+/*============================intro-------------------------*/
+#intro .col-md-6 h2{
+    font-weight: bold;
+    color:  hsl(243, 87%, 12%);
+}
+#intro .col-md-6 p{
+    font-size: 15px;
+    color:  hsl(243, 87%, 12%);
+}
+#intro .inp .form-control{
+    width: 80%;
+    border-radius: 5px;
+
+}
+#intro .input-group .form-control:hover{
+    border: 1px solid rgb(223, 103, 103) !important;
+}
+
+.inp .btn{
+    position: relative;
+    margin-left: 10px;
+
+    
+}
+/*-----------------------second part------------------------*/
+
+#part2 .bg-img {
+    background: url(./images/bg-curve-desktop.svg) no-repeat center;
+    position: relative;
+    height: 100px;
+
+}
+#part2 .col-md h2{
+    font-weight: bold;
+    color:  hsl(243, 87%, 12%);
+}
+#part2 .col-md p{
+    font-size: 15px;
+    color:  hsl(243, 87%, 12%);
+}
+#part2 .abc {
+    
+   
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 3px;
+    width: 11rem;
+    
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 #000;
+}
+.card .test-img{
+   
+
+    height: 3rem;
+    width: 3rem;
+}
+.card .card-text{
+    margin-top: 10px;
+  
+    gap: 10px;
+}
+.card-text .profile span{
+    font-size: 12px;
+
+}
+/*------------------------------------part3----------------------------------*/
+.part3{
+    background:  hsl(238, 22%, 44%);
+    color: white;
+}
+/*-------------part4-------------------------------------------*/
+.footer{
+    background: hsl(243, 87%, 12%);
+    color: white;
+}
+.contact{
+    gap: 10px;
+}
+.contact img{
+    margin-top: 2px;
+    width: 1rem;
+    height: 1rem;
+}
+
+form .form-control:hover{
+    border: 1px solid rgb(223, 103, 103) !important;
+}
+.f-link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -----------------RESPONSIVE CSS ---------------------------- */
+
+
+@media only screen and (max-width: 768px){
+    #intro .r1{
+        display: flex;
+        flex-direction: column-reverse ;
+        text-align: center;
+    }
+        .inp .input-group{
+            display: block;
+           
+           
+    }
+    #intro .inp .form-control{
+        width: 100%;
+    }
+    .inp .input-group .form-control{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        
+    }
+    .inp .input-group2 .btn{
+        align-items: center;
+        width: 100%;
+    }
+    /*======part2===========*/
+
+   
+
+    
+    #part2 .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #part2 .col-md h2{
+        text-align: center;
+        
+    }
+    #part2 .abc {
+        text-align: center;
+        margin: auto;   
+        
+    }
+    #part2 .card{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       max-width: 95%;
+    }
+    
+    /*============================================part3==============================*/
+
+    .part3 .row{
+        display: block;
+        text-align: center;
+    }
+
+    form .form-control{
+        
+        margin-bottom: 10px;
+        align-items: center;
+        /* width: 100%; */
+        
+    }
+    form .btn{
+       float: center;
+       width: 100%;
+       margin-right: 20px;
+       
+        
+
+
+    }
+/*============================opart4===============================*/
+
+    .footer .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .links li{
+        list-style-type: none;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .links a {
+        text-decoration: none;
+        display: block;
+        padding: 0px 0px;
+        color: hsl(244, 42%, 15%);
+        white-space: nowrap;
+    }
+    
+    .navibar .col2{ 
+        display: flex;
+        text-align: left;
+    white-space: nowrap;
+
+    }
+    .navibar{
+        padding-top: 20px;
+    }
+    
+
+    
+    
+}    
+
+@media only screen and (max-width: 425px){
+    #part2 .bg-img {
+        background: url(./images/bg-curve-mobile.svg) no-repeat center;
+        position: relative;
+        height: 80px;
+    
+    }
+    /* .navibar .container .col1{
+        padding: 0 !important;
+    } */
+    .col1{
+        padding-right: 0 !important;
+    }
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+    .col2{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}   
