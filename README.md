@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## Techstack Used
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+** HTML, CSS, BOOTSTRAP**
 
 ## The challenge
 
