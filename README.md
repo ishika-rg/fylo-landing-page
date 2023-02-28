@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## Techstack Used
 
-** HTML, CSS, BOOTSTRAP**
+**HTML, CSS, BOOTSTRAP**
 
 ## The challenge
 
